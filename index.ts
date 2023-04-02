@@ -8,7 +8,7 @@ export const useIsScrolledDown = () => {
     const el = is_scrolled_down_ref.current
     if (el) {
       const observer = new IntersectionObserver(
-        ([entry]) => set_is_scrolled_down(entry.intersectionRatio === 0),
+        ([entry]) => set_is_scrolled_down(entry?.intersectionRatio === 0),
         { threshold: [1] }
       )
       observer.observe(el)
