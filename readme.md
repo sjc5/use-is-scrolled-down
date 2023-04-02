@@ -9,7 +9,7 @@ A ref (`is_scrolled_down_ref`) is returned from the hook, and that ref should go
 ## Usage
 
 ```tsx
-import { useIsScrolledDown } from "sjc/hooks/use-is-scrolled-down/use-is-scrolled-down"
+import { useIsScrolledDown } from "@sjc5/use-is-scrolled-down"
 
 export default function App() {
   const { is_scrolled_down_ref, is_scrolled_down } = useIsScrolledDown()
