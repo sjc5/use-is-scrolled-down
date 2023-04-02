@@ -31,9 +31,3 @@ export default function App() {
   )
 }
 ```
-
-## Dev
-
-```bash
-pnpm changeset
-```
