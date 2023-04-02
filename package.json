@@ -1,0 +1,24 @@
+{
+  "name": "@sjc5/use-is-scrolled-down",
+  "version": "1.0.0",
+  "description": "React helper hook for determining if a user is scrolled down. Useful for changing nav styles when a user is scrolled down.",
+  "main": "use-is-scrolled-down.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Cook",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjc5/use-is-scrolled-down"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "scrolled",
+    "down"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8"
+  }
+}
