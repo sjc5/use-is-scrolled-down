@@ -3,7 +3,7 @@
   "author": "Sam Cook",
   "license": "MIT",
   "description": "React helper hook for determining if a user is scrolled down. Useful for changing nav styles when a user is scrolled down.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
