@@ -9,7 +9,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
-    "release": "pnpm run build && changeset publish",
+    "release": "pnpm run build && changeset publish --access public",
     "lint": "tsc"
   },
   "repository": {
